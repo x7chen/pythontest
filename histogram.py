@@ -1,10 +1,13 @@
 # coding:utf-8
 __author__ = 'Sean'
 
-import cv2
 import sys
+
 import numpy as np
 from matplotlib import pyplot as plt
+
+import cv2
+
 img = cv2.imread(sys.argv[1])
 # OpenCV 函数
 hist = cv2.calcHist([img], [0], None, [256], [0, 256])

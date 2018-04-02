@@ -1,9 +1,11 @@
 # -*- coding:utf-8 -*-
 __author__ = 'Sean'
 
-import cv2
-import numpy as np
 import sys
+
+import numpy as np
+
+import cv2
 
 img = cv2.imread(sys.argv[1])
 
